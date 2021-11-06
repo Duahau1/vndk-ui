@@ -7,7 +7,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Duahau1/vndk-ui.git"
+    "url": "git+https://github.com/Duahau1/vndk-ui.git"
+  },
+  "publishConfig": {
+    "@Duahau1:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "ng build",
@@ -57,6 +60,9 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "connectors",
+    "plugins"
   ]
 }
