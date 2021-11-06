@@ -1,5 +1,5 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
+[![Release](https://github.com/Duahau1/vndk-ui/actions/workflows/release-package.yml/badge.svg)](https://github.com/Duahau1/vndk-ui/actions/workflows/release-package.yml)
 # VndkUi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
