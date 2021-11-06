@@ -1,8 +1,8 @@
-name: Node.js Package
+name: Publish
 
 on:
   release:
-    types: [push]
+    types: [published]
 
 jobs:
   build:
@@ -14,7 +14,6 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm test
-
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
