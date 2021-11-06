@@ -1,4 +1,4 @@
-name: Release npm package
+name: Node.js Package
 
 on:
   push:
@@ -6,18 +6,28 @@ on:
       - main
 
 jobs:
-  release:
-    name: Release
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          node-version: "12.x"
+          node-version: 12
       - run: npm ci
-      - run: npm run build --if-present
-      - run: npm test
-      - run: npx semantic-release
+
+  publish-gpr:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 12
+          registry-url: https://npm.pkg.github.com/
+      - run: npm ci
+      - run: npm publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
