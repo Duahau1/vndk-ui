@@ -4,6 +4,17 @@
 ### Bug Fixes
 
 * fix ([030b44a](https://github.com/Duahau1/vndk-ui/commit/030b44a282dd1967ee68c8a8b17190eb575fabbe))
+* **fix:** fix ([5ac95cc](https://github.com/Duahau1/vndk-ui/commit/5ac95cc9104180f2dceb78803d2c56b6802ef0a7))
+* **fix:** fix ([05e15df](https://github.com/Duahau1/vndk-ui/commit/05e15df546b039a75aab59825e4655da28830697))
+* **fix:** fix ([fa1bf6d](https://github.com/Duahau1/vndk-ui/commit/fa1bf6dac4f8b7f745ee794c3c0573cdd5b52a15))
+* **fix:** fix ([e4714c4](https://github.com/Duahau1/vndk-ui/commit/e4714c495dcaa138e4c6e10b5eb80baa89c1f781))
+
+## [1.0.10](https://github.com/Duahau1/vndk-ui/compare/v1.0.9...v1.0.10) (2021-11-06)
+
+
+### Bug Fixes
+
+* fix ([030b44a](https://github.com/Duahau1/vndk-ui/commit/030b44a282dd1967ee68c8a8b17190eb575fabbe))
 * **fix:** fix ([05e15df](https://github.com/Duahau1/vndk-ui/commit/05e15df546b039a75aab59825e4655da28830697))
 * **fix:** fix ([fa1bf6d](https://github.com/Duahau1/vndk-ui/commit/fa1bf6dac4f8b7f745ee794c3c0573cdd5b52a15))
 * **fix:** fix ([e4714c4](https://github.com/Duahau1/vndk-ui/commit/e4714c495dcaa138e4c6e10b5eb80baa89c1f781))
