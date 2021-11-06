@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/Duahau1/vndk-ui/compare/v1.0.14...v1.0.15) (2021-11-06)
+
+
+### Bug Fixes
+
+* **fix:** fix ([5cf4bb0](https://github.com/Duahau1/vndk-ui/commit/5cf4bb0aeb4a9e339fd2cbce3108176346ac8acc))
+
 ## [1.0.14](https://github.com/Duahau1/vndk-ui/compare/v1.0.13...v1.0.14) (2021-11-06)
 
 
