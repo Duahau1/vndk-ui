@@ -2,7 +2,7 @@
   "name": "vndk-ui",
   "version": "0.0.1",
   "author": {
-    "name": "duahau1",
+    "name": "Duahau1",
     "email": "nguyendokhanhvan2909@gmail.com"
   },
   "repository": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/Duahau1/vndk-ui"
   },
   "publishConfig": {
-    "@Duahau1/registry": "https://npm.pkg.github.com"
+    "Duahau1/registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "ng": "ng",
