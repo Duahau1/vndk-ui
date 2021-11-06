@@ -18,8 +18,6 @@ jobs:
         node-version: 14.x
         registry-url: https://npm.pkg.github.com/
         scope: "@Duahau1"
-    - name: GPR
-      run: node gpr.js
     - name: Install dependencies
       run: npm ci
     - name: Install semantic-release extra plugins

@@ -64,6 +64,5 @@
     "src",
     "connectors",
     "plugins"
-  ],
-  "type": "module"
+  ]
 }
