@@ -10,7 +10,7 @@
     "url": "https://github.com/Duahau1/vndk-ui"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Duahau1"
+    "duahau1:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "ng": "ng",
@@ -19,7 +19,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
     "@angular/common": "~12.2.0",
