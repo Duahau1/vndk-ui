@@ -10,7 +10,7 @@
     "url": "https://github.com/Duahau1/vndk-ui"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@duahau1"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "ng": "ng",
@@ -29,7 +29,6 @@
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "rxjs": "~6.6.0",
-    "semantic-release": "^18.0.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
